@@ -1,0 +1,203 @@
+DATA DiCTIONARY - COURSERA ASSIGNMENT
+
+TestSubject
+
+	1 .. 30 Integer identifying who is the test subject
+
+
+ActivityPerformed
+	1 - WALKING
+	2 - WLKING UPSTAIRS
+	3 - WALKING DOWNSTAIRS
+	4 - SITTING
+	5 - STANDING
+	6 - LAYING
+
+
+
+
+tBodyAcc_mean_X 
+	-1..1 - average by test subject and activity of the mean of the body acceleration signals - X axis
+tBodyAcc_mean_Y
+	-1..1 - average by test subject and activity of the mean of the body acceleration signals - Y axis
+
+tBodyAcc_mean_Z 
+	-1..1 - average by test subject and activity of the mean of the body acceleration signals - Z axis
+
+
+tBodyAcc_std_X
+	-1..1 -average by test subject and activity of the standard deviation of the body acceleration signals - X axis
+
+tBodyAcc_std_Y
+	-1..1 - average by test subject and activity of the standard deviation of the body acceleration signals - Y axis
+
+tBodyAcc_std_Z
+	-1..1 - average by test subject and activity of the standard deviation of the body acceleration signals - Z axis
+
+tGravityAcc_mean_X
+	-1..1 - average by test subject and activity of the mean of the gravity acceleration signals - X axis
+
+tGravityAcc_mean_Y
+	-1..1 - average by test subject and activity of the mean of the gravity acceleration signals - Y axis
+
+tGravityAcc_mean_Z
+	-1..1 - average by test subject and activity of the mean of the gravity acceleration signals - Z axis
+
+tGravityAcc_std_X
+	-1..1 - average by test subject and activity of the standard deviation of the gravity acceleration signals - X axis
+
+tGravityAcc_std_Y
+	-1..1 - average by test subject and activity of the standard deviation of the gravity acceleration signals - Y axis
+
+
+tGravityAcc_std_Z
+	-1..1 - average by test subject and activity of the standard deviation of the gravity acceleration signals - Z axis
+
+
+tBodyAccJerk_mean_X
+	-1..1 - average by test subject and activity of the mean of the Jerk acceleration signals - X axis 
+
+tBodyAccJerk_mean_Y
+	-1..1 - average by test subject and activity of the mean of the Jerk acceleration signals - Y axis 
+tBodyAccJerk_mean_Z
+	-1..1 - average by test subject and activity of the mean of the Jerk acceleration signals - Z axis 
+
+
+tBodyAccJerk_std_X
+	-1..1 - average by test subject and activity of the standard deviation of the Jerk acceleration signals - X axis 	
+
+tBodyAccJerk_std_Y
+	-1..1 - average by test subject and activity of the standard deviation of the Jerk acceleration signals - Y axis 
+tBodyAccJerk_std_Z
+	-1..1 - average by test subject and activity of the standard deviation of the Jerk acceleration signals - Z axis 
+
+tBodyGyro_mean_X
+	-1..1 - average by test subject and activity of the mean of the body gyroscope signals - X axis
+
+tBodyGyro_mean_Y
+	-1..1 - average by test subject and activity of the mean of the body gyroscope signals - Y axis
+
+tBodyGyro_mean_Z
+	-1..1 - average by test subject and activity of the mean of the body gyroscope signals - Z axis
+
+tBodyGyro_std_X
+	-1..1 - average by test subject and activity of the standard deviation of the body gyroscope signals - X axis
+
+tBodyGyro_std_Y
+	-1..1 - average by test subject and activity of the standard deviation of the body gyroscope signals - Y axis
+
+tBodyGyro_std_Z
+	-1..1 - average by test subject and activity of the standard deviation of the body gyroscope signals - Z axis
+
+tBodyGyroJerk_mean_X
+	 -1..1 - average by test subject and activity of the mean of the Jerk gyroscope signals - X axis 
+
+tBodyGyroJerk_mean_Y
+	-1..1 - average by test subject and activity of the mean of the Jerk gyroscope signals - Y axis 
+
+tBodyGyroJerk_mean_Z
+	-1..1 - average by test subject and activity of the mean of the Jerk gyroscope signals - Z axis 
+
+tBodyGyroJerk_std_X
+	-1..1 - average by test subject and activity of the standard deviation of the Jerk gyroscope signals - X axis 
+
+tBodyGyroJerk_std_Y
+	-1..1 - average by test subject and activity of the standard deviation of the Jerk gyroscope signals - Y axis 
+
+tBodyGyroJerk_std_Z
+	-1..1 - average by test subject and activity of the standard deviation of the Jerk gyroscope signals - Z axis 
+
+tBodyAccMag_mean
+
+	-1..1 - average of the mean of the pattern signal
+
+tBodyAccMag_std
+	-1..1 - average of the standard deviation of the pattern signal
+
+tGravityAccMag_mean
+	-1..1 - average of the mean of the pattern signal
+
+tGravityAccMag_std
+	-1..1 - average of the standard deviation  of the pattern signal
+
+tBodyAccJerkMag_mean
+	-1..1 - average of the mean of the pattern signal
+
+tBodyAccJerkMag_std
+	-1..1 - average of the standard deviation of the pattern signal
+
+tBodyGyroMag_mean
+	-1..1 - average of the mean of the pattern signal
+
+tBodyGyroMag_std
+	-1..1 - average of the mean of the pattern signal
+
+tBodyGyroJerkMag_mean	
+	-1..1 - average of the mean of the pattern signal
+
+
+tBodyGyroJerkMag_std
+	-1..1 - average of the mean of the pattern signal
+
+
+fBodyAcc_mean_X
+	-1..1-average by test subject and activity of the mean of the body acceleration signals - fourie transformation - X axis
+fBodyAcc_mean_Y
+	-1..1-average by test subject and activity of the mean of the body acceleration signals - fourie transformation - Y axis	
+fBodyAcc_mean_Z
+	-1..1-average by test subject and activity of the mean of the body acceleration signals - fourie transformation - Z axis	
+
+fBodyAcc_std_X
+	-1..1-average by test subject and activity of the standard deviation of the body acceleration signals - fourie transformation - X axis
+
+fBodyAcc_std_Y
+	-1..1-average by test subject and activity of the standard deviationof the body acceleration signals - fourie transformation - X axis
+
+fBodyAcc_std_Z
+	-1..1-average by test subject and activity of the standard deviation of the body acceleration signals - fourie transformation - X axis
+
+fBodyAccJerk_mean_X
+		-1..1 - average by test subject and activity of the mean of the Jerk acceleration signals - fourie transformation - X axis 	
+
+fBodyAccJerk_mean_Y
+		-1..1 - average by test subject and activity of the mean of the Jerk acceleration signals - fourie transformation - Y axis 	
+
+fBodyAccJerk_mean_Z
+		-1..1 - average by test subject and activity of the mean of the Jerk acceleration signals- fourie transformation  - Z axis 	
+
+fBodyAccJerk_std_X
+	-1..1 - average by test subject and activity of the standard deviation of the Jerk acceleration signals- fourie transformation  - X axis 	
+
+fBodyAccJerk_std_Y
+	-1..1 - average by test subject and activity of the standard deviation of the Jerk acceleration signals - fourie transformation - Y axis 	
+
+fBodyAccJerk_std_Z
+	-1..1 - average by test subject and activity of the standard deviation of the Jerk acceleration signals - fourie transformation - Z axis 	
+
+fBodyGyro_mean_X
+		-1..1-average by test subject and activity of the mean of the body gyroscope signals - fourie transformation - X axis
+fBodyGyro_mean_Y
+		-1..1-average by test subject and activity of the mean of the body gyroscope signals - fourie transformation - Y axis
+fBodyGyro_mean_Z
+		-1..1-average by test subject and activity of the mean of the body gyroscope signals - fourie transformation - Z axis
+fBodyGyro_std_X
+		-1..1-average by test subject and activity of the standard deviation of the body gyroscope signals - fourie transformation - X axis
+fBodyGyro_std_Y
+		-1..1-average by test subject and activity of the standard deviation of the body gyroscope signals - fourie transformation - Y axis
+fBodyGyro_std_Z
+		-1..1-average by test subject and activity of the standard deviation  of the body gyroscope signals - fourie transformation - Z axis
+fBodyAccMag_mean
+	-1..1 - average of the mean of the pattern signal
+fBodyAccMag_std
+	-1..1 - average of the standard deviation of the pattern signal
+fBodyBodyAccJerkMag_mean
+	-1..1 - average of the mean of the pattern signall
+fBodyBodyAccJerkMag_std
+	-1..1 - average of the standard deviation of the pattern signal
+fBodyBodyGyroMag_mean
+	-1..1 - average of the mean of the pattern signal
+fBodyBodyGyroMag_std
+	-1..1 - average of the standard deviation of the pattern signal
+fBodyBodyGyroJerkMag_mean
+	-1..1 - average of the mean of the pattern signal
+fBodyBodyGyroJerkMag_std
